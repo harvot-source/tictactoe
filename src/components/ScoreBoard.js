@@ -6,9 +6,14 @@ export const ScoreBoard = ({ scores, xPlaying }) => {
   const { xScore, oScore } = scores;
 
   return (
-    <div className="scoreboard">
-      <span className={`score x-score ${!xPlaying && "inactive"}`}>X - {xScore}</span>
-      <span className={`score o-score ${xPlaying && "inactive"}`}>O - {oScore}</span>
+    <div>
+        <h2 className='hdtxt'>Enjoy the game of Harvot's &nbsp;
+           <span className='x'> Tic-Tac</span> <span className='o'>-Toe!</span>
+         </h2>
+      <div className="scoreboard">
+        <span className={`score x-score ${!xPlaying && "inactive"}`}>X - {xScore}</span>
+        <span className={`score o-score ${xPlaying && "inactive"}`}>O - {oScore}</span>
+      </div>
     </div>
   )
 }

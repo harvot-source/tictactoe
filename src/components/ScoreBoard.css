@@ -5,7 +5,7 @@
   justify-content: space-evenly;
   width: 20rem;
   font-size: 1.5rem;
-  background-color: white;
+  background-color: #F8EDE3;
   margin: 3rem auto;
   box-shadow: 0px 0px 8px #888888;
   border-radius: 0.5rem;
@@ -32,4 +32,12 @@
 
 .inactive {
   border-bottom: 5px solid transparent;
+}
+
+.hdtxt{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* width: 20rem; */
 }
